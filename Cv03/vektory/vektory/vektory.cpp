@@ -19,11 +19,12 @@ int main()
 	scanf_s("%d %d", &vektorBx, &vektorBy);
 
 	int soucet1;
-	soucet = vektorAx + vektorBx;
+	soucet1 = vektorAx + vektorBx;
 	int soucet2;
-	soucet = vektorAy + vektorBy;
+	soucet2 = vektorAy + vektorBy;
 
-	printf("Soucet vektoru A a vektoru B = %d + %d\n", soucet1, soucet2);
+
+	printf("Soucet vektoru A a vektoru B: x = %d y = %d\n", soucet1, soucet2);
 
 
 }
