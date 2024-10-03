@@ -7,15 +7,23 @@ using namespace std;
 
 int main()
 {
-	int vektorA;
-	int vektorB;
+	int vektorAx;
+	int vektorAy;
+	int vektorBx;
+	int vektorBy;
 
-	printf("Zadejte vektor A a vektor B: ");
-	scanf_s("%d %d", &vektorA, &vektorB);
+	printf("Zadejte vektor A: ");
+	scanf_s("%d %d", &vektorAx, &vektorAy);
 
-	int soucet;
-	soucet = vektorA + vektorB;
+	printf("Zadejte vektor B: ");
+	scanf_s("%d %d", &vektorBx, &vektorBy);
 
-	printf("Soucet vektoru A a vektoru B = %d\n", soucet);
+	int soucet1;
+	soucet = vektorAx + vektorBx;
+	int soucet2;
+	soucet = vektorAy + vektorBy;
+
+	printf("Soucet vektoru A a vektoru B = %d + %d\n", soucet1, soucet2);
+
 
 }
